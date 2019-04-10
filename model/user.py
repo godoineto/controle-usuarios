@@ -8,9 +8,9 @@ class User:
         self.nickname = nickname
         self.role = role
         self.level = Level(int(level))
-        self.logs = []
 
     def __repr__(self):
         return str(self.__dict__)
 
+# Autor: José Luiz de Godoi Neto
 

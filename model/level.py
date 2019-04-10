@@ -10,3 +10,5 @@ class Level(Enum):
 
     def __repr__(self):
         return str(self.name)
+
+# Autor: José Luiz de Godoi Neto

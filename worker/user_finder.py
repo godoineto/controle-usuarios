@@ -1,4 +1,4 @@
-import user_repository as repository
+from repository import user_repository as repository
 
 
 def execute():

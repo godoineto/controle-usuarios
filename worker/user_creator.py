@@ -1,5 +1,7 @@
 from model.user import User
-import user_repository as repository
+from worker import log_generate
+from repository import user_repository as repository
+from repository import log_repository
 
 
 def execute():
@@ -19,7 +21,9 @@ def execute():
     level = input(" ESCOLHA O NIVEL DE ACESSO: ")
     user_found = repository.find_by_nickname(nickname)
     if user_found is None:
-        repository.add(User(name, nickname, role, level))
+        new_user = User(name, nickname, role, level)
+        repository.add(new_user)
+        log_repository.add(log_generate.generate(int(level), new_user))
         print(" USUARIO CADASTRADO COM SUCESSO!")
     else:
         print(" ERRO! JA EXISTE USUARIO CADASTRADO COM ESTE NOME REDUZIDO.")

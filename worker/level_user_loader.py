@@ -1,5 +1,4 @@
-from model.level import Level
-import user_repository as repository
+from repository import user_repository as repository
 
 
 def execute():

@@ -3,6 +3,7 @@ from worker import user_finder
 from worker import super_user_loader
 from worker import user_deleter
 from worker import level_user_loader
+from worker import log_finder
 from worker import program_closer
 
 
@@ -17,7 +18,7 @@ def run(option):
         3: super_user_loader,
         4: user_deleter,
         5: level_user_loader,
-        6: fodeo,
+        6: log_finder,
         7: program_closer
     }.get(option, 7).execute()
 
