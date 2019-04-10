@@ -17,3 +17,5 @@ def find_by_level(level):
 
 def delete(user_to_remove):
     users.remove(user_to_remove)
+
+# Autor: José Luiz de Godoi Neto

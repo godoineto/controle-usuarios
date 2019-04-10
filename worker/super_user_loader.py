@@ -12,3 +12,5 @@ def execute():
         print(" TOTAL: " + str(len(users_found)))
     if not users_found:
         print(" NENHUM SUPER-USUARIO CADASTRADO!")
+
+# Autor: José Luiz de Godoi Neto

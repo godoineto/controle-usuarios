@@ -23,3 +23,5 @@ def execute():
         print(" USUARIO CADASTRADO COM SUCESSO!")
     else:
         print(" ERRO! JA EXISTE USUARIO CADASTRADO COM ESTE NOME REDUZIDO.")
+
+# Autor: José Luiz de Godoi Neto

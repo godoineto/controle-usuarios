@@ -12,3 +12,5 @@ def execute():
     else:
         repository.delete(user_to_remove)
         print(" USUARIO REMOVIDO COM SUCESSO!")
+
+# Autor: José Luiz de Godoi Neto

@@ -12,3 +12,5 @@ def execute():
     else:
         print(" USUARIO ENCONTRADO: ")
         print(str(user_found))
+
+# Autor: José Luiz de Godoi Neto

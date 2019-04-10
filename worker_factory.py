@@ -21,4 +21,4 @@ def run(option):
         7: program_closer
     }.get(option, 7).execute()
 
-
+# Autor: José Luiz de Godoi Neto
