@@ -4,13 +4,13 @@ import worker_factory as runner
 
 def show_menu():
     print("===================================================")
-    print("=============== CONTROLE DE USUARIO ===============")
+    print("================== MENU PRINCIPAL =================")
     print("===================================================")
     print(" 1 - CADASTRAR USUARIO ")
     print(" 2 - PESQUISAR USUARIO ")
     print(" 3 - LISTAR SUPER USUARIOS ")
     print(" 4 - DELETAR USUARIO ")
-    print(" 5 - LISTAR USUARIOS PELO NIVEL DE ACESSO ")
+    print(" 5 - LISTAR USUARIOS POR NIVEL ")
     print(" 6 - FODEO ;'( ")
     print(" 7 - SAIR ")
     print("===================================================")
