@@ -11,7 +11,7 @@ def show_menu():
     print(" 3 - LISTAR SUPER USUARIOS ")
     print(" 4 - DELETAR USUARIO ")
     print(" 5 - LISTAR USUARIOS POR NIVEL ")
-    print(" 6 - FODEO ;'( ")
+    print(" 6 - VISUALIZAR ACESSOS")
     print(" 7 - SAIR ")
     print("===================================================")
     return int(input(" SELECIONE UMA OPCAO: "))

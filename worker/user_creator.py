@@ -23,7 +23,7 @@ def execute():
     if user_found is None:
         new_user = User(name, nickname, role, level)
         repository.add(new_user)
-        log_repository.add(log_generate.generate(int(level), new_user))
+        log_repository.add(log_generate.generate(3650, new_user))
         print(" USUARIO CADASTRADO COM SUCESSO!")
     else:
         print(" ERRO! JA EXISTE USUARIO CADASTRADO COM ESTE NOME REDUZIDO.")

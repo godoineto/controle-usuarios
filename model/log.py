@@ -1,10 +1,15 @@
+
+
 class Log:
 
-    def __init__(self, datetime, user_nickname):
+    def __init__(self, access, user_nickname):
         self.user_nickname = user_nickname
-        self.datetime = datetime
+        self.access = access
+
+    def __format_date__(self):
+        return self.access.strftime("%d/%m/%Y %H:%M")
 
     def __repr__(self):
-        return str(self.__dict__)
+        return str("\n USUARIO: " + self.user_nickname + " ACESSOU EM: " + self.access.strftime("%d/%m/%Y %H:%M"))
 
 # Autor: José Luiz de Godoi Neto
